@@ -1,0 +1,10 @@
+basic.forever(function () {
+    maqueen.servoRun(maqueen.Servos.S1, 180)
+    basic.pause(1000)
+    maqueen.servoRun(maqueen.Servos.S1, -180)
+    basic.pause(1000)
+    maqueen.servoRun(maqueen.Servos.S2, 90)
+    basic.pause(1000)
+    maqueen.servoRun(maqueen.Servos.S2, -90)
+    basic.pause(1000)
+})
